@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "botbuilder": "^3.9.1",
+    "restify": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/restify": "^5.0.2"
+  }
+}
