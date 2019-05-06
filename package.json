@@ -2,10 +2,16 @@
   "dependencies": {
     "botbuilder": "^4.0.6",
     "restify": "^5.2.0",
-    "dotenv": "^4.0.0"
+    "dotenv": "^4.0.0",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {
     "@types/restify": "^5.0.2",
     "@types/dotenv": "^4.0.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
