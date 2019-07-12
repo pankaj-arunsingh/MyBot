@@ -1,8 +1,37 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-AXIOS-174505:
     - botbuilder > botframework-connector > @azure/ms-rest-js > axios:
         patched: '2019-05-06T04:52:30.798Z'
+  SNYK-JS-LODASH-450202:
+    - restify > restify-errors > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - snyk > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - restify > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
+    - botbuilder > botframework-connector > nock > lodash:
+        patched: '2019-07-05T04:51:36.126Z'
