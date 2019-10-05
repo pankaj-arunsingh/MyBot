@@ -35,3 +35,8 @@ patch:
         patched: '2019-07-05T04:51:36.126Z'
     - botbuilder > botframework-connector > nock > lodash:
         patched: '2019-07-05T04:51:36.126Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T04:51:35.305Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T04:51:35.305Z'
